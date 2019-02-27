@@ -1,4 +1,4 @@
-package com.example.cashless;
+package com.myraxsoft.cashless;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.cashless", appContext.getPackageName());
+        assertEquals("com.myraxsoft.cashless", appContext.getPackageName());
     }
 }

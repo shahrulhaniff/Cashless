@@ -1,4 +1,4 @@
-package com.example.cashless;
+package com.myraxsoft.cashless;
 
 import org.junit.Test;
 
