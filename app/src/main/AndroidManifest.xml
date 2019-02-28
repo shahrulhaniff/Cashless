@@ -5,15 +5,15 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/register"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Register"></activity>
         <activity
             android:name=".Login"
-            android:label="@string/sign_in"
-            android:gravity="center"></activity>
-
+            android:gravity="center"
+            android:label="@string/sign_in" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
