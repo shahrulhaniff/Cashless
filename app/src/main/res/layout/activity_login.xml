@@ -60,16 +60,16 @@
             android:id="@+id/btSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@id/btnToLogin"
+            android:layout_above="@+id/btnToRegister"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/button_white"
             android:text="@string/sign_in"
             android:textColor="@color/colorPrimary" />
 
         <Button
-            android:id="@+id/btnToLogin"
+            android:id="@+id/btnToRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
