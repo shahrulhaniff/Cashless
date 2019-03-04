@@ -24,12 +24,26 @@
             android:layout_marginRight="40dp">
 
             <EditText
-                android:id="@+id/fullname"
+                android:id="@+id/first_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorWhite"
                 android:fontFamily="sans-serif-light"
-                android:hint="@string/full_name"
+                android:hint="@string/first_name"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/first_name"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/colorWhite"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/last_name"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/colorWhite"
                 android:textColorHint="@color/colorWhite"
@@ -39,7 +53,7 @@
                 android:id="@+id/emailinput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/fullname"
+                android:layout_below="@id/last_name"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/colorWhite"
                 android:fontFamily="sans-serif-light"
@@ -83,7 +97,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/ic_cashless_icon" />
+            android:src="@drawable/ic_register_icon" />
 
         <Button
             android:id="@+id/btnRegister"
