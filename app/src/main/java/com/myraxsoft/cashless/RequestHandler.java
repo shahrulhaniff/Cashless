@@ -1,4 +1,4 @@
-package com.example.myheroapp;
+package com.myraxsoft.cashless;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

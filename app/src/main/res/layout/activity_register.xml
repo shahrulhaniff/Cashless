@@ -50,7 +50,7 @@
                 android:textSize="17sp" />
 
             <EditText
-                android:id="@+id/emailinput"
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/last_name"
@@ -64,10 +64,10 @@
                 android:textSize="17sp" />
 
             <EditText
-                android:id="@+id/passwordinput"
+                android:id="@+id/pwd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/emailinput"
+                android:layout_below="@id/email"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/colorWhite"
                 android:fontFamily="sans-serif-light"
@@ -78,10 +78,10 @@
                 android:textSize="17sp" />
 
             <EditText
-                android:id="@+id/confirmpasswordinput"
+                android:id="@+id/confirm_pwd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/passwordinput"
+                android:layout_below="@id/pwd"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/colorWhite"
                 android:fontFamily="sans-serif-light"
@@ -122,6 +122,16 @@
             android:background="@drawable/button_red"
             android:text="@string/cancel"
             android:textColor="@color/colorWhite" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
